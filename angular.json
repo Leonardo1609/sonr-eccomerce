@@ -39,6 +39,7 @@
             "scripts": [
               "src/plugins/jquery/jquery.min.js",
               "src/plugins/bootstrap/js/bootstrap.bundle.min.js",
+			  "src/js/ajax-mail.js",
               "src/js/plugins.js",
               "src/js/custom.js"
             ]

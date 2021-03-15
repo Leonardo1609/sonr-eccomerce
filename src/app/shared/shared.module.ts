@@ -5,6 +5,7 @@ import { FooterComponent } from './footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { SecondaryHeaderComponent } from './secondary-header/secondary-header.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { CartDropdownComponent } from './cart-dropdown/cart-dropdown.component';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { NavigationComponent } from './navigation/navigation.component';
     FooterComponent,
     SecondaryHeaderComponent,
     NavigationComponent,
+    CartDropdownComponent,
   ],
   imports: [CommonModule, RouterModule],
   exports: [

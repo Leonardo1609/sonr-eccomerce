@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "productName": "Fusce Aliquam",
+    "productImage": "product-1.jpg",
+    "price": 150
+  },
+  {
+    "id": 2,
+    "productName": "Fusce Aliquam",
+    "productImage": "product-2.jpg",
+    "price": 150
+  },
+  {
+    "id": 3,
+    "productName": "Fusce Aliquam",
+    "productImage": "product-3.jpg",
+    "price": 150
+  },
+  {
+    "id": 4,
+    "productName": "Fusce Aliquam",
+    "productImage": "product-4.jpg",
+    "price": 150
+  }
+]

@@ -10293,3 +10293,7 @@ body.belly-color-green .text-primary, body.belly-color-green a.sortting-btn.acti
 #zoom_03 {
 	width:100% !important;
 }
+
+.link-click{
+	cursor: pointer;
+}

@@ -1,0 +1,89 @@
+<div class="site-wrapper">
+  <app-secondary-header></app-secondary-header>
+  <app-navigation></app-navigation>
+
+  <div class="cart_area cart-area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <form action="#">
+            <!-- Cart Table -->
+            <div class="cart-table table-responsive mb--40">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th class="pro-thumbnail">Image</th>
+                    <th class="pro-title">Product</th>
+                    <th class="pro-price">Price</th>
+                    <th class="pro-quantity">Quantity</th>
+                    <th class="pro-subtotal">Total</th>
+                    <th class="pro-remove">Remove</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let product of productsCart">
+                    <td class="pro-thumbnail">
+                      <a href="#"
+                        ><img
+                          [src]="setProductImagePath(product.productImage)"
+                          alt="Product"
+                      /></a>
+                    </td>
+                    <td class="pro-title">
+                      <a [routerLink]="['/product',product.id]"
+                        >{{ product.productName }}</a
+                      >
+                    </td>
+						  <td class="pro-price"><span>{{ product.price }}</span></td>
+                    <td class="pro-quantity">
+                      <div class="pro-qty">
+                        <div class="count-input-block">
+                          <input
+                            type="number"
+                            class="form-control text-center"
+                            value="1"
+                          />
+                          <div class="count-input-btns">
+                            <button type="button" class="inc-ammount count-btn">
+                              +
+                            </button>
+                            <button type="button" class="dec-ammount count-btn">
+                              -
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+					<td class="pro-subtotal"><span>{{ product.price }}</span></td>
+                    <td class="pro-remove">
+                      <a href="#"><i class="far fa-trash-alt"></i></a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </form>
+
+          <div class="row">
+            <div class="col-lg-6 col-12 mb--15"></div>
+
+            <!-- Cart Summary -->
+            <div class="col-lg-6 col-12 mb--40 d-flex">
+              <div class="cart-summary">
+                <div class="cart-summary-wrap">
+                  <h4>Cart Summary</h4>
+				  <p>Sub Total <span>{{ subTotalPrice }}</span></p>
+				  <p>Shipping Cost <span>{{ shippingCost }}</span></p>
+				  <h2>Grand Total <span>{{ totalPrice }}</span></h2>
+                </div>
+                <div class="cart-summary-button">
+                  <button class="checkout-btn">Checkout</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

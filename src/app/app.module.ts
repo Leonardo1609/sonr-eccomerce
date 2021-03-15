@@ -8,11 +8,13 @@ import { HomeModule } from './home/home.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { ContactModule } from './contact/contact.module';
+import { CartModule } from './cart/cart.module';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
     ContactModule,
+    CartModule,
     SharedModule,
     BrowserModule,
     HomeModule,

@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Product } from './products.interface';
+import { CartProduct, Product } from './products.interface';
 import { map } from 'rxjs/operators';
 
 @Injectable({
@@ -34,5 +34,9 @@ export class ProductsService {
           products.filter((product: Product) => product.category === category)
         )
       );
+  }
+
+  getProductsOfCart(): Observable<CartProduct[]> {
+    return this.http.get<CartProduct[]>('/assets/data/productsCart.json');
   }
 }

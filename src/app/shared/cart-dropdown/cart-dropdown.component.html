@@ -1,0 +1,49 @@
+<div class="option-box cart-box">
+  <ul class="cart-items" style="overflow-y: scroll; max-height: 400px;">
+    <li class="single-cart" *ngFor="let product of productsCart">
+      <div class="cart-product">
+        <div class="cart-product__img">
+          <img
+            style="width: 100px;"
+            [src]="setProductImagePath(product.productImage)"
+            alt="Selected Products"
+          />
+        </div>
+        <div class="product-details">
+          <a
+            [routerLink]="['/product', product.id ]"
+            class="product-details--title"
+            >{{ product.productName }}</a
+          >
+          <span class="product-details--quantity">Qty: 1</span>
+          <h5 class="product-details--price">
+            S/{{ product.price | number:'1.2-2' }}
+          </h5>
+          <button class="product-btn--delete">
+            <i class="icon ion-md-close"></i>
+          </button>
+        </div>
+      </div>
+    </li>
+    <li class="single-cart price-total">
+      <div class="cart-product cart-product__subtotal">
+        <div class="single-total">
+          Sub-Total:
+          <span class="product-details--price"
+            >S/{{ subTotalPrice | number:'1.2-2' }}</span
+          >
+        </div>
+        <div class="single-total">
+          Total:
+          <span class="product-details--price"
+            >S/{{ totalPrice | number:'1.2-2' }}</span
+          >
+        </div>
+      </div>
+    </li>
+  </ul>
+  <div class="cart-buttons">
+    <a routerLink="/cart" class="theme-btn-outlined">View Cart</a>
+    <a href="checkout.html" class="theme-btn-outlined">Check Out</a>
+  </div>
+</div>

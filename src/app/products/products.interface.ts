@@ -8,3 +8,10 @@ export interface Product {
   littleDescription?: string;
   description?: string;
 }
+
+export interface CartProduct {
+  id: number;
+  productName: string;
+  price: number;
+  productImage: string;
+}

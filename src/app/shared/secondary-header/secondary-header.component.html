@@ -6,7 +6,7 @@
       >
         <!-- Header Logo -->
         <div class="site-brand text-lg-center">
-          <a href="index.html" class="brand_logo">
+          <a routerLink="/" class="brand_logo">
             <img src="assets/image/main-logo.png" alt="" />
           </a>
         </div>
@@ -49,48 +49,7 @@
               <i class="icon ion-md-cart"></i> <span class="item-count">1</span>
             </button>
             <div class="slide-down--item">
-              <div class="option-box cart-box">
-                <ul class="cart-items">
-                  <li class="single-cart">
-                    <div class="cart-product">
-                      <div class="cart-product__img">
-                        <img
-                          src="assets/image/products/cart-product-img-1.jpg"
-                          alt="Selected Products"
-                        />
-                      </div>
-                      <div class="product-details">
-                        <a href="#" class="product-details--title">
-                          Ras Neque Metus</a
-                        >
-                        <span class="product-details--quantity">Qty:1</span>
-                        <h5 class="product-details--price">$120.00</h5>
-                        <button class="product-btn--delete">
-                          <i class="icon ion-md-close"></i>
-                        </button>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="single-cart price-total">
-                    <div class="cart-product cart-product__subtotal">
-                      <div class="single-total">
-                        Sub-Total:
-                        <span class="product-details--price">$120.00</span>
-                      </div>
-                      <div class="single-total">
-                        Total:
-                        <span class="product-details--price">$120.00</span>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-                <div class="cart-buttons">
-                  <a href="cart.html" class="theme-btn-outlined">View Cart</a>
-                  <a href="checkout.html" class="theme-btn-outlined"
-                    >Check Out</a
-                  >
-                </div>
-              </div>
+              <app-cart-dropdown></app-cart-dropdown>
             </div>
           </div>
         </div>
