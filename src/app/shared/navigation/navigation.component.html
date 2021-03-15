@@ -1,0 +1,10 @@
+<div class="belly-bredcrumb-section">
+  <div class="container">
+    <ul class="breadcrumb">
+      <li><a routerLink="/">Home</a></li>
+      <li *ngFor="let route of routesToShow">
+        <a [routerLink]="route.url">{{ route.name }}</a>
+      </li>
+    </ul>
+  </div>
+</div>

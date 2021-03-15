@@ -1,0 +1,155 @@
+<section class="section-padding pt-0">
+  <div class="container">
+    <div
+      class="belly-product belly-product--details product-details--left-thumbnail"
+    >
+      <div class="row">
+        <div class="col-md-5">
+          <app-product-galery
+            [product]="product"
+            [productsRelated]="productsRelated"
+          ></app-product-galery>
+        </div>
+        <div class="col-md-7">
+          <div class="product-description">
+            <h3 class="product__caption" style="color: black;">
+              {{ product.name }}
+            </h3>
+            <div class="rating-widget">
+              <span class="single-rating"><i class="ion-md-star"></i></span>
+              <span class="single-rating"><i class="ion-md-star"></i></span>
+              <span class="single-rating"><i class="ion-md-star"></i></span>
+              <span class="single-rating"
+                ><i class="ion-md-star-half"></i
+              ></span>
+              <span class="single-rating"
+                ><i class="ion-md-star-outline"></i
+              ></span>
+              <span>
+                <span class="rating-text"
+                  ><a href="#"> 1 reviews </a> /
+                  <a href="#">Write a review</a></span
+                >
+              </span>
+            </div>
+            <div class="product__price">
+              <span class="price--new">S/{{ product.price }}</span>
+            </div>
+            <div class="product-description--list">
+              <br />
+              <p>Ex Tax: $320.00</p>
+              <p>Reward Points: %s 400</p>
+              <br />
+              <p>
+                Brands
+                <a href="#" class="brand-tag text-primary">Hewlett-Packard</a>
+              </p>
+              <p>Product Code: <span class="text-primary">3</span></p>
+              <p>Reward Points: <span class="text-primary">300</span></p>
+              <p>Availability: <span class="text-primary">In Stock</span></p>
+            </div>
+            <div class="product-description--breif">
+              <p>{{ product.littleDescription }}</p>
+            </div>
+            <div class="product-buttons--group">
+              <div class="single-btn-block count-input-block">
+                <input
+                  type="number"
+                  class="form-control text-center"
+                  value="1"
+                />
+                <div class="count-input-btns">
+                  <button class="inc-ammount count-btn">+</button>
+                  <button class="dec-ammount count-btn">-</button>
+                </div>
+              </div>
+              <div class="single-btn-block">
+                <a href="wishlist-light.html" class="theme-btn-outlined"
+                  >Add to wishlist</a
+                >
+              </div>
+              <div class="single-btn-block">
+                <a href="compare-light.html" class="theme-btn-outlined"
+                  >Add to Compare</a
+                >
+              </div>
+              <div class="single-btn-block">
+                <a href="cart-light.html" class="theme-btn">Add to Cart</a>
+              </div>
+              <div class="single-btn-block w-100">
+                <ul class="social-btns">
+                  <li>
+                    <a href="#" class="facebook"
+                      ><i class="far fa-thumbs-up"></i><span>likes 1</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="twitter"
+                      ><i class="fab fa-twitter"></i> <span>twitter</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="google"
+                      ><i class="fas fa-plus-square"></i> <span>share</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-padding single-product-review pt-0">
+  <div class="container">
+    <div class="belly-review-tab">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            id="home-tab"
+            data-toggle="tab"
+            href="#home"
+            role="tab"
+            aria-controls="home"
+            aria-selected="true"
+            >Description</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="profile-tab"
+            data-toggle="tab"
+            href="#profile"
+            role="tab"
+            aria-controls="profile"
+            aria-selected="false"
+            >Reviews(1)</a
+          >
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div
+          class="tab-pane fade show active"
+          id="home"
+          role="tabpanel"
+          aria-labelledby="home-tab"
+        >
+          <p>{{ product.description }}</p>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="profile"
+          role="tabpanel"
+          aria-labelledby="profile-tab"
+        >
+          <app-review-section></app-review-section>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

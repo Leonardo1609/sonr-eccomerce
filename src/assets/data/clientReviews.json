@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "clientName": "Shinji Ikari",
+    "review": " \" When a beautiful design is combined with powerful technology, it truly is an artwork. I love how my website operates and looks with this theme. Thank you for the awesome product. \" .. ",
+    "photo": "client-img-1.jpg"
+  },
+  {
+    "id": 2,
+    "clientName": "Asuka Langley",
+    "review": " \" When a beautiful design is combined with powerful technology, it truly is an artwork. I love how my website operates and looks with this theme. Thank you for the awesome product. \" .. ",
+
+    "photo": "client-img-1.jpg"
+  },
+  {
+    "id": 3,
+    "clientName": "Rei Ayanami",
+    "review": " \" When a beautiful design is combined with powerful technology, it truly is an artwork. I love how my website operates and looks with this theme. Thank you for the awesome product. \" .. ",
+
+    "photo": "client-img-1.jpg"
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "id": 1,
+    "name": "Fusce Aliquam",
+    "category": 1,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-1.jpg",
+    "littleDescription": "Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus. Sed et lorem nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean eleifend laoreet congue. Vivamus adipiscing nisl ut dolor dignissim semper. Nulla luctus malesuada tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, p..",
+    "description": "Nunc facilisis sagittis ullamcorper. Proin lectus ipsum,gravida et mattis vulputate, tristique ut lectus. Sed et lorem nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean eleifend laoreet congue. Vivamus adipiscing nisl ut dolor dignissim semper. cNulla luctus malesuada tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer enim purus, posuere at ultricies eu, placerat a felis. Suspendisse aliquet urna pretium eros convallis interdum. cQuisque in arcu id dui vulputate mollis eget non arcu. Aenean et nulla purus. Mauris vel tellus non nunc mattis lobortis.Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus. Sed et lorem nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean eleifend laoreet congue. Vivamus adipiscing nisl ut dolor dignissims emper. Nulla luctus malesuada tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer enim purus, posuere at ultricies eu, placerat a felis. Suspendisse aliquet urna pretium eros convallis interdum. Quisque in arcu id dui vulputate mollis eget non arcu. Aenean et nulla purus. Mauris vel tellus non nunc mattis lobortis"
+  },
+  {
+    "id": 2,
+    "name": "Fusce Aliquam",
+    "category": 1,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Fusce Aliquam",
+    "category": 1,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Fusce Aliquam",
+    "category": 1,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Fusce Aliquam",
+    "category": 1,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Fusce Aliquam",
+    "category": 1,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Fusce Aliquam",
+    "category": 1,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Fusce Aliquam",
+    "category": 1,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Fusce Aliquam",
+    "category": 1,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-1.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Fusce Aliquam",
+    "category": 1,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-2.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Fusce Aliquam",
+    "category": 2,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-3.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Fusce Aliquam",
+    "category": 2,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-4.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Fusce Aliquam",
+    "category": 2,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-5.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Fusce Aliquam",
+    "category": 2,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-6.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Fusce Aliquam",
+    "category": 2,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-7.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Fusce Aliquam",
+    "category": 2,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-8.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Fusce Aliquam",
+    "category": 2,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-1.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Fusce Aliquam",
+    "category": 2,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-2.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Fusce Aliquam",
+    "category": 2,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-3.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Fusce Aliquam",
+    "category": 2,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-4.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Fusce Aliquam",
+    "category": 3,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-5.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Fusce Aliquam",
+    "category": 3,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-6.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Fusce Aliquam",
+    "category": 3,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-7.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Fusce Aliquam",
+    "category": 3,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-8.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Fusce Aliquam",
+    "category": 3,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-1.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Fusce Aliquam",
+    "category": 3,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-2.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Fusce Aliquam",
+    "category": 3,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-3.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Fusce Aliquam",
+    "category": 3,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-4.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Fusce Aliquam",
+    "category": 3,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-5.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Fusce Aliquam",
+    "category": 3,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-6.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Fusce Aliquam",
+    "category": 4,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-7.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Fusce Aliquam",
+    "category": 4,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-8.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Fusce Aliquam",
+    "category": 4,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-1.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Fusce Aliquam",
+    "category": 4,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-2.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Fusce Aliquam",
+    "category": 4,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-3.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Fusce Aliquam",
+    "category": 4,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-4.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Fusce Aliquam",
+    "category": 4,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-5.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Fusce Aliquam",
+    "category": 4,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-6.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Fusce Aliquam",
+    "category": 4,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-7.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Fusce Aliquam",
+    "category": 4,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-8.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Fusce Aliquam",
+    "category": 4,
+    "oldPrice": 150,
+    "price": 150,
+    "productImage": "product-1.jpg"
+  }
+]

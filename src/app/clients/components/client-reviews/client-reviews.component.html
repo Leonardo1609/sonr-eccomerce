@@ -1,0 +1,30 @@
+<section
+  class="section-padding testimonial-section bg-image"
+  data-bgimage="assets/image/bg-images/home-4/testimonial-bg.png"
+>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 offset-lg-6 col-md-8 offset-md-4">
+        <div class="testimonial-block testimonial-slider">
+          <div class="single-block"
+			  *ngFor="let clientReview of clientReviews">
+            <div class="section-title title-seperator-1">
+              <h2 class="testimonial-title">What Clients Say?</h2>
+            </div>
+            <p>
+              {{ clientReview.review }}
+            </p>
+            <div class="testimonial_client-profile">
+              <div class="client-img">
+                <img [src]="setImagePath(clientReview.photo)" alt="" />
+              </div>
+              <div class="client-details">
+                <h6>{{ clientReview.clientName }}</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

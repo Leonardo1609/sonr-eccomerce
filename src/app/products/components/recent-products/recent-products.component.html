@@ -1,0 +1,16 @@
+<section class="product-section section-padding">
+  <div class="container">
+    <div class="section-title section-title-sep-3 text-black">
+      <h2>Recent Product</h2>
+      <p>
+        Mirum est notare quam littera gothica, quam nunc putamus parum claram
+        anteposuerit litterarum.
+      </p>
+    </div>
+    <div class="product-slider mini-items-slider">
+      <div class="product__single-slide" *ngFor="let product of recentProducts">
+		  <app-product-card [product]="product"></app-product-card>
+	  </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,40 @@
+<div class="belly-product product-style-2">
+  <div class="product__image">
+    <img
+      [src]="setProductImagePath(product.productImage)"
+      [alt]="product.name"
+    />
+    <div class="hover-content">
+      <a [routerLink]="['/product/', product.id]" class="hover-image">
+        <img
+          [src]="setProductImagePath(product.productImage)"
+          [alt]="product.name"
+        />
+      </a>
+    </div>
+    <span class="product-badge badge--sell-chocolate"></span>
+  </div>
+  <div class="product-description text-center">
+    <h3 class="product__caption">
+      <a [routerLink]="['/product/', product.id]">{{ product.name }}</a>
+    </h3>
+    <div class="rating-widget">
+      <span class="single-rating"><i class="ion-md-star"></i></span>
+      <span class="single-rating"><i class="ion-md-star"></i></span>
+      <span class="single-rating"><i class="ion-md-star"></i></span>
+      <span class="single-rating"><i class="ion-md-star-half"></i></span>
+      <span class="single-rating"><i class="ion-md-star-outline"></i></span>
+    </div>
+    <div class="product__price">
+      <span class="price--old">S/{{ product.oldPrice }}</span>
+      <span class="price--new">S/{{ product.price }}</span>
+    </div>
+    <div class="product__btn">
+      <a
+        href="cart-light.html"
+        class="theme-btn-outlined theme-btn-outlined--type-2"
+        >add to cart</a
+      >
+    </div>
+  </div>
+</div>

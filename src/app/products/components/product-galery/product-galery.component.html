@@ -1,0 +1,25 @@
+<div class="product__image">
+  <div class="product-image-main">
+    <img
+      id="zoom_03"
+      [src]="setProductImagePath(product.productImage)"
+      [attr.data-zoom-image]="setProductImagePath(product.productImage)"
+    />
+  </div>
+
+  <div
+    id="product-view-gallary"
+    class="product-view-slider product-view-standered-slider-2"
+    *ngIf="productsRelated"
+  >
+    <a
+      *ngFor="let i of oneToTen"
+      href="#"
+      class="gallary-item"
+      [attr.data-image]="setProductImagePath(productsRelated[i].productImage)"
+      [attr.data-zoom-image]="setProductImagePath(productsRelated[i].productImage)"
+    >
+      <img [src]="setProductImagePath(productsRelated[i].productImage)" />
+    </a>
+  </div>
+</div>

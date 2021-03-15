@@ -1,0 +1,74 @@
+<div class="contact_form">
+  <h3 class="ct_title">Send Us a Message</h3>
+
+  <form
+    id="contact-form"
+    action="http://demo.hasthemes.com/belly-v5/belly/plugins/php/mail.php"
+    method="post"
+    class="form-box-1"
+  >
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="form-group">
+          <label>Your Name <span class="required">*</span></label>
+          <input
+            type="text"
+            name="customerName"
+            id="customername"
+            class="form-control"
+            required
+          />
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="form-group">
+          <label>Your Email <span class="required">*</span></label>
+          <input
+            type="email"
+            name="customerEmail"
+            id="customerEmail"
+            class="form-control"
+            required
+          />
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="form-group">
+          <label>Subject</label>
+          <input
+            type="text"
+            name="contactSubject"
+            class="form-control"
+            id="contactSubject"
+          />
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="form-group">
+          <label>Your Message</label>
+          <textarea
+            name="contactMessage"
+            class="form-control"
+            id="contactMessage"
+          ></textarea>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="form-btn">
+          <button
+            type="submit"
+            class="theme-btn-outlined"
+            value="submit"
+            id="submit"
+            name="submit"
+          >
+            send
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+  <div class="form-output">
+    <p class="form-messege"></p>
+  </div>
+</div>

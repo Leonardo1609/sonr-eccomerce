@@ -1,0 +1,46 @@
+<section class="section-padding pt-0">
+  <div class="container">
+    <div class="shop-product-wrap grid with-pagination row">
+      <div
+        class="col-lg-4 col-sm-6 mb-30"
+        *ngFor="let product of productsToShow"
+      >
+        <app-product-card [product]="product"></app-product-card>
+      </div>
+    </div>
+    <!-- Pagination -->
+    <div class="pagination-widget">
+      <div class="row align-items-sm-center">
+        <div class="col-sm-6 text-sm-left">
+          <div class="site-pagination">
+            <a (click)="productsPerPage(1)" class="single-pagination">|<</a>
+            <a
+              (click)="productsPerPage(actualPage - 1)"
+              class="single-pagination"
+              ><</a
+            >
+            <a
+              class="single-pagination"
+              *ngFor="let i of numberPages"
+              (click)="productsPerPage(i)"
+              >{{ i }}</a
+            >
+            <a
+              (click)="productsPerPage(actualPage + 1)"
+              class="single-pagination"
+              >></a
+            >
+            <a (click)="productsPerPage(totalPages)" class="single-pagination"
+              >>|</a
+            >
+          </div>
+        </div>
+        <div class="col-sm-6 text-sm-right">
+          <p class="mt-0 mt-sm-3">
+		  Showing {{ firstOfPage }} to {{ lastOfPage }} of {{ productsPerCategory.length }} ({{ totalPages }} Pages)
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
